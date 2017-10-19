@@ -1,0 +1,20 @@
+module.exports = {
+    rules: {
+        'color-named': 'never',
+        'color-no-hex': false,
+        'function-url-no-scheme-relative': true,
+        'number-max-precision': 8,
+        'time-min-milliseconds': 100,
+        'value-no-vendor-prefix': false,
+        'property-no-vendor-prefix': false,
+        'declaration-no-important': true,
+        'declaration-block-single-line-max-declarations': 1,
+        'selector-max-empty-lines': 0,
+        'selector-max-id': 0,
+        'selector-no-qualifying-type': true,
+        'selector-no-vendor-prefix': false,
+        'media-feature-name-no-vendor-prefix': false,
+        'at-rule-no-vendor-prefix': false,
+        'max-nesting-depth': 4,
+    },
+};
