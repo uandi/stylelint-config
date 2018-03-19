@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
-    "test": "npm run lint",
-    "prepare": "npm test"
+    "test": "npm run --silent lint",
+    "prepublish": "npm test"
   },
   "repository": {
     "type": "git",
