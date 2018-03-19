@@ -1,3 +1,3 @@
 module.exports = {
-    extends: '@uandi/eslint-config-uandi',
+    extends: '@uandi/eslint-config',
 };
