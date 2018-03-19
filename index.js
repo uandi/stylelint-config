@@ -5,5 +5,5 @@ module.exports = {
         './rules/style.js',
         './rules/no-ignored-properties.js',
         './rules/scss.js',
-    ],
+    ].map(require.resolve),
 };

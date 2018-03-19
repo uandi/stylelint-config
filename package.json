@@ -1,6 +1,6 @@
 {
   "name": "@uandi/stylelint-config",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "StyleLint configuration for u+i",
   "main": "index.js",
   "scripts": {
