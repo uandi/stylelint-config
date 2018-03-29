@@ -79,7 +79,7 @@ module.exports = {
         'scss/dollar-variable-colon-space-before': 'never',
 
         // Require !default flag for $-variable declarations.
-        'scss/dollar-variable-default': false,
+        'scss/dollar-variable-default': null,
 
         // Require a single empty line or disallow empty lines before $-variable declarations.
         'scss/dollar-variable-empty-line-before': ['always', {
