@@ -5,7 +5,7 @@ module.exports = {
         'color-named': 'never',
 
         // Disallow hex colors.
-        'color-no-hex': false,
+        'color-no-hex': null,
 
         // FUNCTION =======================================
         // Specify a blacklist of disallowed functions.
@@ -44,7 +44,7 @@ module.exports = {
 
         // VALUE ==========================================
         // Disallow vendor prefixes for values.
-        'value-no-vendor-prefix': false,
+        'value-no-vendor-prefix': null,
 
         // CUSTOM PROPERTY ================================
         // Specify a pattern for custom properties.
@@ -55,7 +55,7 @@ module.exports = {
         // 'property-blacklist': [],
 
         // Disallow vendor prefixes for properties.
-        'property-no-vendor-prefix': false,
+        'property-no-vendor-prefix': null,
 
         // Specify a whitelist of allowed properties.
         // 'property-whitelist': [],
@@ -136,7 +136,7 @@ module.exports = {
         'selector-no-qualifying-type': true,
 
         // Disallow vendor prefixes for selectors.
-        'selector-no-vendor-prefix': false,
+        'selector-no-vendor-prefix': null,
 
         // Specify a blacklist of disallowed pseudo-class selectors.
         // 'selector-pseudo-class-blacklist': [],
@@ -155,7 +155,7 @@ module.exports = {
         // 'media-feature-name-blacklist': [],
 
         // Disallow vendor prefixes for media feature names.
-        'media-feature-name-no-vendor-prefix': false,
+        'media-feature-name-no-vendor-prefix': null,
 
         // Specify a whitelist of allowed media feature names.
         // 'media-feature-name-whitelist': [],
@@ -169,7 +169,7 @@ module.exports = {
         // 'at-rule-blacklist': [],
 
         // Disallow vendor prefixes for at-rules.
-        'at-rule-no-vendor-prefix': false,
+        'at-rule-no-vendor-prefix': null,
 
         // Specify a whitelist of allowed at-rules.
         // 'at-rule-whitelist': [],
