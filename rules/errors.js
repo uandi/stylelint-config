@@ -65,7 +65,9 @@ module.exports = {
 
         // AT-RULE ========================================
         // Disallow unknown at-rules.
-        'at-rule-no-unknown': true,
+        'at-rule-no-unknown': [true, {
+            ignoreAtRules: ['function', 'include', 'if', 'else', 'else if', 'mixin', 'each', 'extend'],
+        }],
 
         // COMMENT ========================================
         // Disallow empty comments.

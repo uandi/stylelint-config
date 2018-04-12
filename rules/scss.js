@@ -22,9 +22,7 @@ module.exports = {
 
         // @-FUNCTION
         // Require named parameters in SCSS function call rule.
-        'scss/at-function-named-arguments': ['always', {
-            ignore: ['single-argument'],
-        }],
+        'scss/at-function-named-arguments': null,
 
         // Require or disallow a space before @function parentheses.
         'scss/at-function-parentheses-space-before': 'always',
@@ -54,9 +52,7 @@ module.exports = {
         'scss/at-mixin-argumentless-call-parentheses': 'always',
 
         // Require named parameters in at-mixin call rule.
-        'scss/at-mixin-named-arguments': ['always', {
-            ignore: ['single-argument'],
-        }],
+        'scss/at-mixin-named-arguments': null,
 
         // Require or disallow a space before @mixin parentheses.
         'scss/at-mixin-parentheses-space-before': 'always',
@@ -70,7 +66,7 @@ module.exports = {
 
         // $-VARIABLE
         // Require a newline after the colon in $-variable declarations.
-        'scss/dollar-variable-colon-newline-after': 'always-multi-line',
+        'scss/dollar-variable-colon-newline-after': null,
 
         // Require or disallow whitespace after the colon in $-variable declarations.
         'scss/dollar-variable-colon-space-after': 'always-single-line',

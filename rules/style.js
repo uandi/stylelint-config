@@ -210,7 +210,9 @@ module.exports = {
 
         // Rule ===========================================
         // Require or disallow an empty line before rules (Autofixable).
-        'rule-empty-line-before': 'always',
+        'rule-empty-line-before': ['always', {
+            except: ['after-single-line-comment', 'first-nested'],
+        }],
 
         // Media feature ==================================
         // Require a single space or disallow whitespace after the colon in media features.
@@ -246,7 +248,10 @@ module.exports = {
 
         // At-rule ========================================
         // Require or disallow an empty line before at-rules (Autofixable).
-        'at-rule-empty-line-before': 'always',
+        'at-rule-empty-line-before': ['always', {
+            except: ['after-same-name', 'first-nested'],
+            ignore: ['inside-block', 'after-comment'],
+        }],
 
         // Specify lowercase or uppercase for at-rules names (Autofixable).
         'at-rule-name-case': 'lower',
@@ -280,7 +285,7 @@ module.exports = {
         }],
 
         // Limit the number of adjacent empty lines.
-        'max-empty-lines': [1, {
+        'max-empty-lines': [2, {
             ignore: ['comments'],
         }],
 
